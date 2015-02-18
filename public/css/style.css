@@ -1,0 +1,108 @@
+
+/*LAYOUT*/
+
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: #cc33ff;
+  font-size: 1.3em;
+  font-family: 'Gill Sans';
+  font-weight: 100;
+  text-decoration: none;
+  margin-right: 2em;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  font-family: 'Gill Sans';
+  font-weight: 400;
+  font-size: 2em;
+}
+
+h2 {
+  line-height: 1.3em;
+  font-family: 'Gill Sans';
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+header {
+  background-color: black;
+  vertical-align: center;
+  height: 5em;
+}
+
+#logo {
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+}
+
+.main {
+  position: relative;
+  top: 20%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.headline {
+  padding: 2.0em;
+}
+
+.purple {
+  color: #cc33ff;
+}
+
+#mainbutton {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: .5em 2em .5em 2em;
+  color: white;
+  background: rgba(204,51,255,1);
+  margin-top: 1em;
+  font-family: 'Gill Sans';
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+#join {
+  padding: .5em 2em .5em 2em;
+  background-color: white;
+  outline: none;
+}
+
+button:hover {
+  color:white;
+}
+
+.bubble {
+  position: relative;
+  color:#FFFFFF;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding:.1em .1em .1em .1em;
+  background-color: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.7));
+    filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.7));
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  padding: 1em;
+  bottom: 0em;
+  height: 1.5em;
+}
